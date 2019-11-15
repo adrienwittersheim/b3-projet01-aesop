@@ -1,0 +1,217 @@
+
+body{
+
+  margin: 0;
+}
+header {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  -webkit-box-align: center;
+  height: 50vh;
+  background-color: #030321;
+
+}
+h1, h2, h3 {
+  margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+h3 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: blue;
+}
+p {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+/*=============== FABLE1 ===============*/
+
+#fable01{
+align-items:center;
+text-align: justify;
+min-height: 100vh;
+background-color: #030321;
+}
+
+#fable01 h2{
+  padding: 0;
+  text-align: left;
+  margin-left: 200px;
+  margin-bottom: 100px;
+
+}
+
+.Old p {
+display: block;
+margin-left: 200px;
+margin-right: 200px;
+font-size: 25px;
+line-height: 40px;
+padding-top: 50px;
+border-top: solid white 2px;
+
+}
+
+.bundle{
+  color: #bd1733;
+}
+
+
+
+
+/*=============== FABLE2 ===============*/
+
+
+#fable02 h2{
+  text-align: left;
+  margin-left: 5px;
+  margin-right: 0;
+}
+
+
+#fable02{
+  background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url('images/zozio.gif')no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  max-width: none;
+  margin-right: auto;
+  margin-left: 0;
+  min-width: 100vh;
+min-height: 100vh;
+text-align: center;
+
+}
+
+
+/*=============== FABLE3 ===============*/
+
+#fable03{
+background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url('images/fur.jpg')no-repeat;
+background-size: cover;
+cursor: url('images/lion.png'),auto;
+text-align: justify;
+display: block;
+min-height: 110vh;
+
+}
+
+.love{
+color: #e33215;
+}
+
+
+.lion{
+  display: inline-block;
+    outline: 1px solid white;
+    padding: 1em;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 6px;
+    line-height: 1.8em;
+    margin-bottom: calc(4 * 20px);
+    margin-top: calc(2 * 20px);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.fable3{
+text-align: center;
+}
+
+
+
+.textelion{
+  font: 17px/30px 'Amiri', serif;
+color: #fff;
+text-align: center;
+letter-spacing: .05em;
+margin: auto;
+max-width: 600px;
+border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+}
+
+
+
+
+
+
+
+
+
+.mt-50px {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+margin-top: 180px;
+}
+
+
+
+
+
+
+
+
+html, body{
+  height: 100%;
+  font-weight: 800;
+}
+
+body{
+
+  font-family: Arial;
+}
+
+svg {
+    display: block;
+    font: 8em 'Montserrat';
+    width: 960px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: #4D163D;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #840037;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #BD0034;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #BD0034;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #FDB731;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
